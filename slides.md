@@ -5,6 +5,7 @@ theme: seriph
 highlighter: shiki
 # show line numbers in code blocks
 lineNumbers: false
+background: https://source.unsplash.com/XgeZu2jBaVI/1920x1080
 # some information about the slides, markdown enabled
 info: |
   ## Slidev Starter Template
@@ -32,7 +33,7 @@ Kalwabed Rizki
   <div class="flex items-center">
     <img src="/kpb-logo.png" class="w-18" />
 
-  <div>
+  <div class="text-left">
     <span>Komunitas Programmer Banyuwangi</span>
     <p class="c-gray-400 !p-0 !m-0">
       17 Februari 2023
@@ -48,26 +49,46 @@ The last comment block of each slide will be treated as slide notes. It will be 
 ---
 ---
 
-# Navigation
+<div class="flex justify-between gap-50">
+  <div class="mt-8">
+    <h1 class="!c-white !text-5xl !pt-8">
+      Kalwabed Rizki
+    </h1>
 
-Hover on the bottom-left corner to see the navigation's controls panel, [learn more](https://sli.dev/guide/navigation.html)
+  <div class="c-gray-400 mt-8">
+    <p>
+    Fullstack web engineer at F&B startup.
+    </p>
+    <p>
+    TypeScript and open-source enthusiasts.
+    </p>
+    <p>
+    Part of JogjaJS. KPB member since 2019.
+    </p>
+  </div>
 
-### Keyboard Shortcuts
+  <div class="flex gap-4 items-center mt-12 text-sm">
+    <ph-github-logo class="c-gray-500" />
+    <a href="https://github.com/kalwabed">kalwabed</a>
+  </div>
+  <div class="flex gap-4 items-center mt-4 text-sm">
+    <ph-globe class="c-gray-500" />
+    <a href="https://www.kalwabed.xyz">kalwabed.xyz</a>
+  </div>
+  <div class="flex gap-4 items-center mt-4 text-sm">
+    <ph-instagram-logo class="c-gray-500" />
+    <a href="https://www.instagram.com/kalwabed">kalwabed</a>
+  </div>
+  <div class="flex gap-4 items-center mt-4 text-sm">
+    <ph-twitter-logo class="c-gray-500" />
+    <a href="https://twitter.com/kalwabedrzk">kalwabedrzk</a>
+  </div>
+  </div>
 
-|     |     |
-| --- | --- |
-| <kbd>right</kbd> / <kbd>space</kbd>| next animation or slide |
-| <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
-| <kbd>up</kbd> | previous slide |
-| <kbd>down</kbd> | next slide |
+  <img src="/kalwabed.jpg" class="place-self-start rd-full w-48 mt-10" />
 
-<!-- https://sli.dev/guide/animations.html#click-animations -->
-<img
-  v-click
-  class="absolute -bottom-9 -left-7 w-80 opacity-50"
-  src="https://sli.dev/assets/arrow-bottom-left.svg"
-/>
-<p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
+</div>
+
 
 ---
 transition: fade-out
