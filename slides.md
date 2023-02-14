@@ -1,6 +1,6 @@
 ---
 # try also 'default' to start simple
-theme: seriph
+theme: default
 # https://sli.dev/custom/highlighters.html
 highlighter: shiki
 # show line numbers in code blocks
@@ -36,24 +36,21 @@ Kalwabed Rizki
   <div class="text-left">
     <span>Komunitas Programmer Banyuwangi</span>
     <p class="c-gray-400 !p-0 !m-0">
-      17 Februari 2023
+      18 Februari 2023
     </p>
   </div>
   </div>
 </div>
 
-<!--
-The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
--->
-
 ---
+title: Kalwabed Rizki
+layout: two-cols
 ---
 
-<div class="flex justify-between gap-50">
-  <div class="mt-8">
-    <h1 class="!c-white !text-5xl !pt-8">
-      Kalwabed Rizki
-    </h1>
+<div class="mt-8">
+  <h1 class="!c-white !text-5xl !pt-8">
+    Kalwabed Rizki
+  </h1>
 
   <div class="c-gray-400 mt-8">
     <p>
@@ -63,7 +60,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
     TypeScript and open-source enthusiasts.
     </p>
     <p>
-    Part of JogjaJS. KPB member since 2019.
+    Part of JogjaJS.
     </p>
   </div>
 
@@ -82,54 +79,86 @@ The last comment block of each slide will be treated as slide notes. It will be 
   <div class="flex gap-4 items-center mt-4 text-sm">
     <ph-twitter-logo class="c-gray-500" />
     <a href="https://twitter.com/kalwabedrzk">kalwabedrzk</a>
-  </div>
-  </div>
-
-  <img src="/kalwabed.jpg" class="place-self-start rd-full w-48 mt-10" />
-
 </div>
 
 
----
-transition: fade-out
----
+</div>
 
-# What is Slidev?
+::right::
 
-Slidev is a slides maker and presenter designed for developers, consist of the following features
-
-- 📝 **Text-based** - focus on the content with Markdown, and then style them later
-- 🎨 **Themable** - theme can be shared and used with npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embedding Vue components to enhance your expressions
-- 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export into PDF, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - anything possible on a webpage
-
-<br>
-<br>
-
-Read more about [Why Slidev?](https://sli.dev/guide/why)
+<img src="/kalwabed.jpg" class="rd-full w-48 mt-10 ml-auto" />
 
 <!--
-You can have `style` tag in markdown to override the style for the current page.
-Learn more: https://sli.dev/guide/syntax#embedded-styles
+Nama saya Kalwabed Rizki. Saya seorang Fullstack Web Engineer di salah satu F&B Startup di Indonesia. Saya sudah menggeluti dunia industri teknologi sejak sekitar 2 tahunan ini. Saya tinggal di Jogja, sekarang lagi pulang kampung di Banyuwangi. Aktif di komunitas JogjaJS, dan Menjadi member KPB sejak 2019.
 -->
 
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-</style>
+---
+layout: section
+---
+
+# Open source?
+
+let me introduce myself
+
+---
+---
+
+# What is Open Source?
+Perangkat lunak yang memiliki sumber kode terbuka yang dapat dilihat, diedit, dan dikembangkan oleh siapa saja.
+
+<div class="flex justify-between">
+<img src="/open-source.png" width="400" />
+<img src="/closed-source.png" width="400" />
+</div>
+
+---
+---
+
+# Open Source History
+
+<img src="/oss-history.png" alt="OSS history"  />
+<!--
+Sejarah open-source software dimulai pada tahun **1950-an dan 1960-an**, saat programmer memulai untuk bekerja sama dan berbagi kode sumber mereka. Pada tahun **1968, Richard Stallman memulai proyek GNU (GNU's Not Unix)**, bertujuan untuk menciptakan sistem operasi kompatibel Unix yang sumber kodenya terbuka.
+
+Pada tahun 1985, Stallman menciptakan organisasi Free Software Foundation (FSF) untuk mempromosikan dan mempertahankan filosofi perangkat lunak bebas dan terbuka. **Pada tahun 1989, Stallman mengeluarkan lisensi publik general GNU (GPL)**, yang menjadi lisensi open-source paling populer hingga sekarang.
+
+**Pada tahun 1991, Linus Torvalds memulai proyek untuk membuat sistem operasi berbasis Unix yang terbuka, yang dikenal sebagai Linux**. Pada tahun 1993, permintaan akan perangkat lunak open-source mulai meningkat, dan banyak perusahaan mulai mengadopsi dan mengembangkan teknologi ini.
+
+Sejak saat itu, open-source software telah berkembang menjadi industri besar, dengan ribuan perangkat lunak dan proyek terbuka yang tersedia bagi siapa saja untuk digunakan dan dikembangkan. Saat ini, open-source software digunakan dalam berbagai sektor, termasuk bisnis, pemerintahan, pendidikan, dan teknologi.
+-->
+
+---
+layout: statement
+---
+
+# But why...?
+kenapa harus open source?
+
+---
+---
+
+# Why Are People Choosing Open Source?
+
+<div class="flex justify-between">
+
+1. Fleksibilitas <ph-check class="c-green" />
+2. Kualitas <ph-check class="c-green" />
+3. Harga <ph-check class="c-green" />
+4. Keamanan <ph-check class="c-green" />
+5. Kolaborasi <ph-check class="c-green" />
+6. Transparansi <ph-check class="c-green" />
+
+<img src="/power-rangers.jpg" alt="Power rangers" class="rd-lg" width="400" />
+
+</div>
 
 <!--
-Here is another comment.
+1. Fleksibilitas: Perangkat lunak open-source dapat dilihat, diedit, dan dikembangkan oleh siapa saja, memungkinkan pengguna untuk menyesuaikan dan memodifikasi perangkat lunak untuk memenuhi kebutuhan mereka.
+2. Kualitas: Karena sumber kode terbuka, perangkat lunak open-source dapat diperiksa dan ditingkatkan oleh komunitas global, memastikan bahwa perangkat lunak bekerja dengan baik dan memenuhi standar kualitas tertentu.
+3. Harga: Perangkat lunak open-source biasanya gratis, membuatnya menjadi pilihan yang lebih murah bagi individu dan organisasi yang memiliki anggaran terbatas.
+4. Keamanan: Karena sumber kode terbuka, masalah keamanan dapat segera dikenali dan difix oleh komunitas, memastikan bahwa perangkat lunak aman untuk digunakan.
+5. Kolaborasi: Perangkat lunak open-source memungkinkan kolaborasi antar programmer dan organisasi dari seluruh dunia, mempercepat inovasi dan pengembangan.
+6. Transparansi: Perangkat lunak open-source memungkinkan pengguna untuk memahami bagaimana perangkat lunak bekerja dan memastikan bahwa perangkat lunak tidak melakukan hal-hal yang merugikan.
 -->
 
 ---
