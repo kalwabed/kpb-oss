@@ -98,7 +98,7 @@ layout: section
 
 # Open source?
 
-let me introduce myself
+Let me introduce myself.
 
 ---
 ---
@@ -132,9 +132,10 @@ layout: statement
 ---
 
 # But why...?
-kenapa harus open source?
+Kenapa harus open source?
 
 ---
+class: text-2xl
 ---
 
 # Why Are People Choosing Open Source?
@@ -160,6 +161,102 @@ kenapa harus open source?
 5. Kolaborasi: Perangkat lunak open-source memungkinkan kolaborasi antar programmer dan organisasi dari seluruh dunia, mempercepat inovasi dan pengembangan.
 6. Transparansi: Perangkat lunak open-source memungkinkan pengguna untuk memahami bagaimana perangkat lunak bekerja dan memastikan bahwa perangkat lunak tidak melakukan hal-hal yang merugikan.
 -->
+
+---
+layout: section
+---
+# Where we should getting started?
+Ingin mulai, tapi dari mana?
+
+---
+layout: statement
+---
+
+# Contribution Is Not Only by Code
+
+---
+title: Contributions
+layout: center
+---
+
+# Kita juga bisa berkontribusi dengan...
+
+- Melaporkan jika ada bug
+- Membuat tools untuk mempermudah penggunaan
+- Membuat dokumentasi
+- Dukungan secara finansial (cth. donasi, sponsor)
+
+---
+layout: section
+---
+
+# Before your first contribution
+Sebelum mulai berkontribusi, apa yang harus dipersiapkan?
+
+---
+---
+
+# Git
+Version control system.
+
+<img src="/git-branch.png" alt="Git branch" width="400" />
+
+- Branching
+- Merging
+- Conflict resolution
+- Rebasing
+- Git Workflow
+
+---
+---
+
+# Github <ph-github-logo-duotone />
+Git hosting service.
+
+<div class="flex justify-between">
+
+- Repository
+- Forking
+- Pull Request
+- Issues
+- Github Actions
+
+<div>
+<img src="/gh-pr-flow.png" class="rd" alt="Github PR flow" width="450" />
+
+[pull-request-review-process](https://blog.comtradedigital.com/blog/pull-request-review-process)
+</div>
+</div>
+
+---
+layout: statement
+---
+
+# Did I mention about license?
+
+---
+layout: center
+title: MIT License
+---
+The most commonly used license for OSS...
+
+<img src="/mit.png" width="500" alt="MIT illustration" />
+
+<!--
+Sebelum menggunakan berbagai jenis software kita juga perlu memperhatikan tentang lisensinya. Lisensi yang paling umum digunakan untuk OSS adalah MIT.
+Lisensi ini dikeluarkan oleh Massachusetts Institute of Technology (MIT) dan memungkinkan pengguna untuk menggunakan, memodifikasi, dan membagikan perangkat lunak yang dilisensikan dengan lisensi ini.
+Lisensi MIT sangat mudah dipahami dan menyediakan fleksibilitas tinggi bagi pengguna dan pengembang. Hal ini membuat lisensi MIT sangat populer untuk proyek perangkat lunak open-source, termasuk beberapa proyek populer seperti Ruby on Rails, Django, dan React.
+Lisensi MIT sangat ringan dan hanya membutuhkan beberapa syarat minimal, seperti pemberitahuan atas hak cipta dan pengecualian tanggung jawab hukum.
+-->
+
+---
+---
+
+# Recap
+- Open source software adalah jenis software yang terbuka secara kode sumber dan pengembangan
+- Tidak hanya dengan menulis kode, untuk berkontribusi juga bisa melalui banyak cara
+- MIT adalah lisensi yang umum digunakan untuk OSS
+- Git dan Github adalah instrumen OSS yang sangat penting
 
 ---
 layout: image-right
