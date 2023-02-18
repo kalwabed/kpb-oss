@@ -8,3 +8,4 @@ Terima kasih kepada semua kontributor! You guys are awesome! <ph-heart/>
 - Izza Ihsan Fathony [@Zzathy](https://github.com/Zzathy)
 - Dhaniar Febrin [@dhaniarfebrin](https://github.com/dhaniarfebrin)
 - Firman Justisio L [@zeetec20](https://github.com/zeetec20)
+- Fahry Ibrahim [@fahryibrahim](https://github.com/FahryIbrahim)
