@@ -5,3 +5,4 @@ Terima kasih kepada semua kontributor! You guys are awesome! <ph-heart/>
 
 - Kalwabed Rizki [@kalwabed](https://github.com/kalwabed)
 - Muhammad Raihan Ar Rasyid [@MRDEO24](https://github.com/MRDEO24)
+- Scheva Pratama [@schevapratama](https://github.com/SchevaPratama)
