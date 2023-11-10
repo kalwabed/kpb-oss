@@ -1,0 +1,30 @@
+repo_name: kalwabed/kpb-oss
+report_id: cf83eb7c4bb537a4cc96dd6a70b86db6
+repo_type: Public
+timestamp: '2023-11-10T12:43:39+00:00'
+requested_by: kalwabed
+provider: github
+branch: main
+detected_tools_count: 2
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: Netlify
+  description: Build, deploy and host your static site or app with a drag and drop
+    interface and automatic delpoys from GitHub or Bitbucket
+  website_url: https://www.netlify.com/
+  open_source: false
+  hosted_saas: true
+  category: Application Utilities
+  sub_category: Static Web Hosting
+  image_url: https://img.stackshare.io/service/2748/default_5dfbb146cf22182bca88c7d07f2515a5888fc12a.jpg
+  detection_source: netlify.toml
+  last_updated_by: kalwabed
+  last_updated_on: 2023-02-12 14:08:26.000000000 Z
